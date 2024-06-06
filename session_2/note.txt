@@ -1,0 +1,19 @@
+- Vòng lặp while:
+    Check Xpression -> Realize Statements
+    Su dung khi khong biet truoc so lan lap
+- Hàm range():
+    Create number series
+    range(begin, end, step)
+    thu tu uu tien: end -> begin -> step
+- Vong lap for:
+    last item reached ? -> Statements
+    su dung khi biet truoc so lan lap
+- Cau lenh break:
+    Stop loop when satisfy the condition, out loop
+- Cau lenh continue:
+    Condition to continue next iteration
+- Vong lap voi else:
+    De thuc hien vong lap khong ket thuc vi cau lenh break
+- Vong lap long nhau (nested loop)
+    
+
