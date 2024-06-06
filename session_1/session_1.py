@@ -19,7 +19,7 @@ input("Input values: ")
 from math import pi
 R = float(input("Enter the radios of a circle: "))
 print(R)
-# print(type(R))
+print(type(R))
 
 C = 2 * pi * R
 print("Circumference of circle:", C)

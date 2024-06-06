@@ -15,5 +15,3 @@
 - Vong lap voi else:
     De thuc hien vong lap khong ket thuc vi cau lenh break
 - Vong lap long nhau (nested loop)
-    
-
