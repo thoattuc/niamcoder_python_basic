@@ -1,0 +1,21 @@
+- Dictionary is a collection of objects/items
+- Stored as a Key/Value pair
+- Disorderly
+- Initialization:
+    data = {}
+    data = {"key": "value",...}
+
+- Key is only one
+- Key is immutable
+- keyname is distinguished between upper and lower case letters
+- Cannot use list is key, list is mutable
+
+- Value is unlimited
+
+- mutable: list; dictionary; set
+    co the thay doi gia tri sau khi da duoc khoi tao
+- immutable: number; boolean; string; tuple
+    mot khi da khoi tao thi khong the thay doi gia tri cua chung
+
+- element access:
+    dictionary_name[key_name]
