@@ -13,5 +13,3 @@ elif n % 10 != 0 and n % 10 < 10:
 else:
     p = n % 100
     print("unit digit = ", p)
-
-
