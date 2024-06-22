@@ -1,0 +1,16 @@
+* convert data type to string:
+    str(any.object)
+
+* slice string:
+    string_name[begin::end]
+
+* replace string:
+
+* case-insensitive:
+    lower()
+    upper()
+
+* escape sequence:
+    \'
+    \n
+
