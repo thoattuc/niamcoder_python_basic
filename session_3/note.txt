@@ -1,0 +1,50 @@
+* Function: la mot khoi lenh hoan chinh de thuc thi 1 cong viec nao do
+    - Tai su dung
+    - Clean code
+    - def (define)
+
+* Dinh nghia ham:
+    def function_name([parameters]):
+        statements
+        [return value] #thoat khoi ham khi gap return
+
+* Goi ham:
+    if __name__ == '__main__':
+        value = function_name([arguments])
+        print(value)
+
+    - neu ham co tham so can tao bien luu gia tri tra ve
+
+* Cac loai doi so:
+    - position argument: doi so vi tri
+    - keyword argument: doi so tu khoa
+    - ket hop: tat ca cac doi so vi tri phai khai bao truoc cac doi so tu khoa
+    - default argument: doi so mac dinh
+
+* Gia tri tra ve:
+    - 0 gia tri
+    - 1 gia tri
+    - nhieu gia tri
+
+* Phan loai:
+    - Ham thu vien:
+    - Ham nguoi dung tu dinh nghia:
+
+* Docstring:
+    - giup nguoi khac thuan loi hon trong viec su dung cac ham do chung ta viet
+    -   """
+        text..
+        """
+    -   chuoi tai lieu kieu google
+
+    - chuoi tai lieu kieu numpy
+
+* cac ham tich hop san: (builtin function)
+
+* Cac gia tri hang so trong module math:
+    const: e, pi, tau, inf, nan
+
+* Cac ham trong module math:
+    sqrt(), pow(), log(), log2(), log10(), exp()
+
+* Cac ham trong module random:

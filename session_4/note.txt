@@ -1,5 +1,3 @@
 * linkin: mxh worker/job
 * possible career level
 * job CEO/manager no public: lo diem yeu cua cong ty cho cac doi thu biet
-
-
