@@ -24,8 +24,17 @@ def cal_distance_2(a_coord, b_coord):
     return sqrt(distance)
 
 
+# 3:
+def cal_distance_3(a_coord, b_coord):
+    distance = 0
+    for i, j in zip(a_coord, b_coord):
+        distance += (i - j)**2
+    return sqrt(distance)
+
+
 if __name__ == '__main__':
     A = (1, 2, 3)
     B = (3, 4, 5)
     print(cal_distance_1(A, B))
     print(cal_distance_2(A, B))
+    print(cal_distance_3(A, B))
