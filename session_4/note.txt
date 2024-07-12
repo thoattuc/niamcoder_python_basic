@@ -65,4 +65,3 @@
 
 * Dem so lan xuat hien trong list
     - list_name.count(value)
-
