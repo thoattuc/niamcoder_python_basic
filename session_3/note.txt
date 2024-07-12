@@ -28,8 +28,9 @@
 
 * Phan loai:
     - Ham thu vien:
+        from [lib] import [func]
     - Ham nguoi dung tu dinh nghia:
-
+        def...
 * Docstring:
     - giup nguoi khac thuan loi hon trong viec su dung cac ham do chung ta viet
     -   """

@@ -1,8 +1,3 @@
-# n = input("Enter the number: ")
-
-a = ["monday", "today"]
-print(sorted(a))
-
 """
     A.
     Viết hàm is_member() nhận 2 tham số đầu vào:
@@ -19,10 +14,9 @@ print(sorted(a))
 
 
 def is_member(value, list_of_values):
-    for i in list_of_values:
-        if i == value:
-            return "true"
-        return "false"
+    for i in range(len(list_of_values)):
+        if value == list_of_values[i]:
+            return True
 
 
 def overlapping(list_1, list_2):
@@ -30,10 +24,11 @@ def overlapping(list_1, list_2):
     for i in range(len(list_1)):
         if is_member(list_1[i], list_2):
             new_list.append(list_1[i])
-    print(new_list)
+    return new_list
 
 
 if __name__ == "__main__":
     print(is_member("monday", ["rose", 5, True, "monday", "tuesday", -5.5]))
+    print(is_member("Monday", ["rose", 5, True, "monday", "tuesday", -5.5]))
 
     print(overlapping(["rose", 5, True], ["rose", 5, True, "monday", "tuesday", -5.5]))

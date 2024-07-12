@@ -1,3 +1,68 @@
 * linkin: mxh worker/job
 * possible career level
 * job CEO/manager no public: lo diem yeu cua cong ty cho cac doi thu biet
+
+* Data structure - python co 4 kieu cau truc du lieu co ban theo muc do pho bien:
+    - list
+    - dictionary
+    - tuple
+    - set
+* List: la mot chuoi cac phan tu
+    su dung ngoac vuong [] de khai bao list
+    data = []
+    data = [values]
+    data = [value]*len(data)
+    data = list(string)
+    data = [[list_1], [list_2], [list_3]]
+
+    - co thu tu
+    - duoc truy cap boi chi so index
+    - chua bat ki kieu du lieu nao
+    - kha bien: thay doi dc gia tri
+
+* Truy cap phan tu trong list:
+    - chi so suoi: index
+    - chi so nguoc: -index
+    - [-1] <=> [len(list)+1]
+
+* Thay doi gia tri cua phan tu:
+    - list[index] = new_value
+
+* Cat list: (slice)
+    - list_name[begin:end:step]
+    - reverse list: list_name[::-1]
+
+* Them phan tu vao list:
+    - list_name.insert(index, item)
+    - ham insert() tra ve None, day la inplace function
+
+* Them phan tu vao list
+    - list_name.append(item) them 1 phan tu vao cuoi list
+    - list_name.extend(iterable) them nhieu phan tu vao cuoi list
+
+* Nested lists
+    -
+* Xoa phan tu khoi list:
+    - list_name.pop(index)
+    - del list_name.(index)
+    - del list_name.[begin:end]
+    - list_name.remove(item) chi xa phan tu dau tien nhan gia tri item
+    - list_name.clear()
+
+* Tinh do dai cua list:
+
+* Kiem tra su ton tai cua gia tri:
+    if item in list_name
+    index(value)
+* Duyet qua cac phan tu cua list
+
+* Dao nguoc thu tu cua list
+    - list_name.reverse()
+    - list_name[::-1]
+
+* Sap xep cac phan tu cua list tang dan:
+    - list_name.sort()
+
+* Dem so lan xuat hien trong list
+    - list_name.count(value)
+

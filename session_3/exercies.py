@@ -20,7 +20,7 @@ def cal_distance_1(a_coord, b_coord):
 def cal_distance_2(a_coord, b_coord):
     distance = 0
     for i in range(len(a_coord)):
-        distance += (a_coord[i] - b_coord[i])**2
+        distance += (a_coord[i] - b_coord[i]) ** 2
     return sqrt(distance)
 
 
@@ -28,7 +28,7 @@ def cal_distance_2(a_coord, b_coord):
 def cal_distance_3(a_coord, b_coord):
     distance = 0
     for i, j in zip(a_coord, b_coord):
-        distance += (i - j)**2
+        distance += (i - j) ** 2
     return sqrt(distance)
 
 
@@ -38,3 +38,11 @@ if __name__ == '__main__':
     print(cal_distance_1(A, B))
     print(cal_distance_2(A, B))
     print(cal_distance_3(A, B))
+
+# zip:
+A = [1, 2, 3]
+B = [4, 5, 6]
+C = "HAPPY"
+
+for i, j, k in zip(A, B, C):
+    print(i, j, k)
