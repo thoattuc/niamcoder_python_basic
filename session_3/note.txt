@@ -49,3 +49,16 @@
     sqrt(), pow(), log(), log2(), log10(), exp()
 
 * Cac ham trong module random:
+
+* Cac ham xu ly voi list:
+    - insert(): them mot phan tu vao 1 vi tri cu the trong list
+    - append(): them mot phan tu vao cuoi list
+    - extend(): them tat ca cac phan tu trong 1 iterable vao cuoi list
+    - pop(): xoa 1 phan tu o vi tri cu the khoi list
+    - remove(): xoa phan tu dau tien voi gia tri cu the khoi list
+    - clear(): xoa tat ca cac phan tu khoi list
+    - index(): tra ve vi tri cua phan tu dau tien voi gia tri cu the trong list
+    - reverse(): dao nguoc thu tu cac phan tu trong list
+    - sort()/sorted(): sap xep cac phan tu trong list theo thu tu tang dan
+    - count(): dem so lan 1 gia tri xuat hien trong list
+    

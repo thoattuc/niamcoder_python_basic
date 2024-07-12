@@ -1,0 +1,11 @@
+* Lop - Class
+
+* Thuoc tinh - Atributes
+
+* Phuong thuc - Method
+
+* self
+
+* Inheritance, Encapsulation
+
+* Override a method
