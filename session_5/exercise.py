@@ -96,23 +96,21 @@ print(check_happy_number(n))
 
 """
 
-numbers = [20, 10, -4, 5, 15, 36, -16, 20, 36]
-
 
 def count_max_number(list_number):
     max_number = max(list_number)
-    k = 0
-    for element in list_number:
-        if element == max_number:
-            k += 1
-        return k
+    k = list_number.count(max_number)
+    return k
 
 
-numbers = list(set(numbers))    # xoa phan tu trung lap
-numbers.sort(reverse=True)
+if __name__ == '__main__':
+    numbers = [20, 10, -4, 5, 15, 36, -16, 20, 36]
+    print(count_max_number(numbers))
 
+    numbers = list(set(numbers))    # xoa phan tu trung lap
+    numbers.sort(reverse=True)
 
-print(numbers)
-print(numbers[0])
-print(numbers[1])
-print(count_max_number(numbers))
+    print(numbers)
+    print(numbers[0])
+    print(numbers[1])
+
