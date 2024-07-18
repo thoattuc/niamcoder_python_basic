@@ -86,3 +86,33 @@ def check_happy_number(number):
 n = input("Enter a number: ")
 
 print(check_happy_number(n))
+
+"""
+    Cho 1 danh sách gồm các số
+    Viết các chương trình để tìm ra:
+    1. Số lớn nhất
+    2. Số lớn thứ nhì
+    3. k số lớn nhất
+
+"""
+
+numbers = [20, 10, -4, 5, 15, 36, -16, 20, 36]
+
+
+def count_max_number(list_number):
+    max_number = max(list_number)
+    k = 0
+    for element in list_number:
+        if element == max_number:
+            k += 1
+        return k
+
+
+numbers = list(set(numbers))    # xoa phan tu trung lap
+numbers.sort(reverse=True)
+
+
+print(numbers)
+print(numbers[0])
+print(numbers[1])
+print(count_max_number(numbers))
