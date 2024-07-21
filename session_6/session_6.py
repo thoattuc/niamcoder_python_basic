@@ -50,4 +50,12 @@ print(set_2.difference(set_1))
 print(set_1 ^ set_2)
 print(set_1.symmetric_difference(set_2))
 
-# string and defined:
+# String:
+data_str_1 = 'abc'
+data_str_2 = "abcdefghijklmnopqrstuvwxyz"
+data_str_3 = '''abcd'''
+
+int_value = 1995
+str_value = str(int_value)
+print(str_value)
+print(type(int_value))
