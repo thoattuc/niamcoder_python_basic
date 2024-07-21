@@ -121,15 +121,29 @@ if __name__ == '__main__':
     Kết quả in ra màn hình là:
         100 = 2 x 2 x 5 x 5
 """
+from math import  sqrt
+
+# 1:
 
 
 def get_string(n):
+    pass
+"""
+    Viết hàm nhận 1 tham số đầu vào là 1 số tự nhiên n
+    In ra kết quả là tích các thừa số nguyên tố của số đó
+    Ví dụ, với n = 100
+    Kết quả in ra màn hình là:
+        100 = 2 x 2 x 5 x 5
+"""
+
+
+def get_string_prime(number):
     primes = []
     i = 2
-    while n > 1:
-        if n % i == 0:
+    while number > 1:
+        if number % i == 0:
             primes.append(i)
-            n //= i
+            number //= i
         else:
             i += 1
     return primes
@@ -137,4 +151,4 @@ def get_string(n):
 
 if __name__ == '__main__':
     num = int(input("Enter a number: "))
-    print(get_string(num))
+    print(get_string_prime(num))

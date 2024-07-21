@@ -19,3 +19,12 @@
 
 - element access:
     dictionary_name[key_name]
+
+- tuple:
+    tuple_name = (value_1, value_2, ...)
+
+- tuple packing:
+    tuple_name = value_1, value_2, ...n
+    a, b, c, ..n = tuple_name
+
+- tinh bat bien chi ap dung tuple, ko ap dung voi cac phan tu cua no

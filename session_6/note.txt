@@ -1,3 +1,9 @@
+* Set:
+    - Tap hop ko trung nhau va khong co thu tu
+    - kha bien'
+    - data_set = {values}
+    - tinh kha bien' chi ap dung cho set, khong ap dung cho cac phan tu cua no
+
 * convert data type to string:
     str(any.object)
 
@@ -13,4 +19,3 @@
 * escape sequence:
     \'
     \n
-
