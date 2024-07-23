@@ -1,4 +1,31 @@
-# numbers = [20, 10, -4, 5, 10, 36, -16, 3, 5, 10, 16, -5, 5]
+"""
+    Cho list bao gồm các số bất kì
+    Đếm xem số lần xuất hiện của mỗi số trong list đó
+"""
+numbers = [20, 10, -4, 5, 10, 36, -16, 3, 5, 10, 16, -5, 5]
+
+# 1:
+set_num = set(numbers)
+list_num = list(set_num)
+print(set_num)
+for i in range(len(list_num)):
+    count = 0
+    for j in range(len(numbers)):
+        if list_num[i] == numbers[j]:
+            count += 1
+    print(list_num[i], count)
+
+# 2:
+data = {}
+for i in numbers:
+    if i in data.keys():
+        data[i] += 1
+    else:
+        data[i] = 1
+
+for key, value in data.items():
+    print("Number {} appears {} time(s)".format(key, value))
+
 
 """
     Viết 1 hàm nhận 2 tham số đầu vào:

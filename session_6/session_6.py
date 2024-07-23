@@ -115,4 +115,13 @@ print(new_string)
 string_5 = "hello world !"
 print(string_5.split())
 
+new_string = string_3.split(" ")
+print(new_string)
+
+string_6 = " ".join(new_string)
+print(string_6)
+
+string_7 = "hello everyone!"
+print(string_7.find("e"))   # index
+
 
