@@ -152,3 +152,4 @@ def get_string_prime(number):
 if __name__ == '__main__':
     num = int(input("Enter a number: "))
     print(get_string_prime(num))
+
