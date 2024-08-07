@@ -1,25 +1,8 @@
-* Lap trinh huong cau truc:
-    cac dong code dc viet lien tiep nhau
-    ch tr chay tu tren xuong duoi
-
-* Object Orientation Programming - lap trinh huong doi tuong
-    tao ra cac lop chuyen biet
-    tat ca nhung thuoc tinh, hanh vi cua doi tuong se duoc dong goi lai
-
-
 * Lop - Class
-    ban thiet ke/khuon mau cho doi tuong
-    ten lop: viet HOA chu cai dau
-    chua cac thuoc tinh va hanh vi cua doi tuong
-    object <=> instance
 
 * Thuoc tinh - Atributes
-    cac thuoc tinh trong lop duoc dinh nghia bang cac bien
-
 
 * Phuong thuc - Method
-    phuong thuc khoi tao: def __init__(self, ) tu dong dc tao ra
-    
 
 * self
 

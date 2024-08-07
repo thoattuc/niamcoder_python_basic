@@ -123,5 +123,3 @@ print(string_6)
 
 string_7 = "hello everyone!"
 print(string_7.find("e"))   # index
-
-
