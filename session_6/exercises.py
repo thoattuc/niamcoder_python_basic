@@ -148,5 +148,3 @@ def get_frequences(string):
 
 text = "aabbbaccba"
 print(get_frequences(text))
-
-
