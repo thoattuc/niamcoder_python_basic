@@ -1,3 +1,4 @@
+* Dict:
 - Dictionary is a collection of objects/items
 - Stored as a Key/Value pair
 - Disorderly
@@ -18,7 +19,20 @@
     mot khi da khoi tao thi khong the thay doi gia tri cua chung
 
 - element access:
-    dictionary_name[key_name]
+    dict_name[key_name]
+- update:
+    dict_name[key_name] = value
+- delete:
+    removed_item = dict.pop(key_name)
+    dict.pop(key_name)
+    del data["key_name"]
+    data.clear()
+- length:
+    len(dict)
+
+* Tuple:
+- nhieu dac diem giong voi list: co thu tu, chi so, multi data-type
+- la bat bien nen KHONG the them/xoa/thaydoi
 
 - tuple:
     tuple_name = (value_1, value_2, ...)
