@@ -3,8 +3,26 @@
 * Thuoc tinh - Atributes
 
 * Phuong thuc - Method
+    xac dinh cac hanh vi, chuc nang ma cac doi tuong lop co
+    Ham != Phuong thuc:
+        Ham nam ben ngoai va khong lien quan den class, goi 1 cach doc lap;
+        Phuong thuc nam ben trong lop, goi thong qua lop va doi tuong
 
-* self
+* self:
+    tham so dau tien cua tat ca cac ham cua lop
+    self.param truy cap hoac thay doi gia tri cac thuoc tinh.
+
+* Khoi tao doi tuong:
+    instance_name = Class_name(params) - khong can truyen vao doi so self
+    del instance_name
+
+* Su dung phuong thuc cua lop:
+    instance_name.method(args)
+
+* Truy cap thuoc tinh cua doi tuong:
+    instance_name.attribute
+    instance_name.attribute = value
+    del instance_name.attribute
 
 * Inheritance, Encapsulation
 
