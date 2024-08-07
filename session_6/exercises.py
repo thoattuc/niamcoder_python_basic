@@ -132,17 +132,21 @@ print(remove_punctuations(text))
 
 
 def get_frequences(string):
+    if not string:
+        return []
+    result = []
     count = 1
-    list_count = []
     for i in range(1, len(string)):
-        if string[i] == string[i - 1]:
+        if string[i] == string[i-1]:
             count += 1
         else:
-            list_count.append(count)
+            result.append(count)
             count = 1
-    list_count.append(count)
-    print(list_count)
+    result.append(count)
+    return result
 
 
 text = "aabbbaccba"
-get_frequences(text)
+print(get_frequences(text))
+
+
