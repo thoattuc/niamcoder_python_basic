@@ -24,6 +24,9 @@
     instance_name.attribute = value
     del instance_name.attribute
 
-* Inheritance, Encapsulation
+* Inheritance:
+    create childClass inherited parentClass
+    super().__init__(attributes_of_parentClass)
+
 
 * Override a method
